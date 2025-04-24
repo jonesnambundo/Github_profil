@@ -1,15 +1,18 @@
 import { FaSearch } from "react-icons/fa";
 
-// Define a interface para os props
-interface SearchBarProps {
+type Props = {
   userName: string;
-  setUserName: React.Dispatch<React.SetStateAction<string>>;
+  setUserName: (value: string) => void;
   handleSubmit: (event: React.FormEvent) => void;
   isLoading: boolean;
-}
+};
 
-// Aplique a interface ao componente
-const SearchBar: React.FC<SearchBarProps> = ({ userName, setUserName, handleSubmit, isLoading }) => {
+const SearchBar = ({
+  userName,
+  setUserName,
+  handleSubmit,
+  isLoading,
+}: Props) => {
   return (
     <form
       className="w-full px-4 sm:px-8 max-w-xl mb-8 relative"
@@ -20,7 +23,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ userName, setUserName, handleSubm
         placeholder="Digite um usuário do Github"
         className="w-full bg-gray-200 px-4 pr-14 h-9 sm:h-12 md:h-12 text-xs sm:text-sm md:text-xl rounded-xl outline-none"
         value={userName}
-        onChange={(e) => setUserName(e.target.value)}
+        onChange={(e) => setUserName(e.target.value)} // Atualiza o valor do nome de usuário
       />
       <button
         type="submit"

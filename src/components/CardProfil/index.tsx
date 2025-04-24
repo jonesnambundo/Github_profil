@@ -1,4 +1,14 @@
-const CardProfil = ({ userData }) => {
+type UserData = {
+  avatar_url: string;
+  name?: string;
+  bio?: string;
+};
+
+type CardProfilProps = {
+  userData: UserData;
+};
+
+const CardProfil = ({ userData }: CardProfilProps) => {
   return (
     <div className="w-full max-w-3xl flex flex-col sm:flex-row items-center gap-0 sm:gap-4 md:gap-7">
       <img
