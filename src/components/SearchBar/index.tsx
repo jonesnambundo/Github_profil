@@ -23,7 +23,7 @@ const SearchBar = ({
         placeholder="Digite um usuário do Github"
         className="w-full bg-gray-200 px-4 pr-14 h-9 sm:h-12 md:h-12 text-xs sm:text-sm md:text-xl rounded-xl outline-none"
         value={userName}
-        onChange={(e) => setUserName(e.target.value)} // Atualiza o valor do nome de usuário
+        onChange={(e) => setUserName(e.target.value)}
       />
       <button
         type="submit"
