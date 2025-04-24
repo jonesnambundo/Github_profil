@@ -30,7 +30,9 @@ Este projeto em **React** permite buscar perfis de usuários no GitHub e exibe s
 ## 💻 Preview
 
 ### 🌐 Versão Web
-<img src="./src/assets/web.PNG" alt="Web Preview" width="100%" />
+![Image](https://github.com/user-attachments/assets/a8ffe5b4-cea5-4445-9feb-c8e2961e739d)
+
+![Image](https://github.com/user-attachments/assets/b86dcad3-273b-42ac-a984-09132bd5c370)
 
 ### 📱 Versão Mobile
 <img src="./src/assets/mobile.png" alt="Mobile Preview" width="300" />
