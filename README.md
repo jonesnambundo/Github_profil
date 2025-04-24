@@ -29,18 +29,17 @@ Este projeto em **React** permite buscar perfis de usuários no GitHub e exibe s
 
 ## 💻 Preview
 
-### 🌐 Versão Web
-![Image](https://github.com/user-attachments/assets/a8ffe5b4-cea5-4445-9feb-c8e2961e739d)
+### 🌐 Versão Mobile e Web
 
-![Image](https://github.com/user-attachments/assets/b86dcad3-273b-42ac-a984-09132bd5c370)
-
-### 📱 Versão Mobile
-<img src="./src/assets/mobile.png" alt="Mobile Preview" width="300" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d2fba866-312a-48db-8cc3-8205a3424200" alt="Preview Mobile" width="720"/>
+  <br/>
+  <img src="https://github.com/user-attachments/assets/c15d0a5b-5217-4f94-b52b-403a92ecf66e" alt="Preview Web" width="720"/>
+</div>
 
 ## 📥 Como Rodar o Projeto
 
-### 1. Clone o Repositório
-
 ```bash
-git clone https://github.com/seu-usuario/github-profile-search.git
-cd github-profile-search
+git clone 
+npm i
+npm run dev
