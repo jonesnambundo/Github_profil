@@ -12,7 +12,7 @@ const App = () => {
   const [showCard, setShowCard] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  async function handleSubmit(e) {
+  async function handleSubmit(e: { preventDefault: () => void; }) {
     e.preventDefault();
     setIsLoading(true);
     try {
