@@ -4,7 +4,7 @@
 
 Este projeto em **React** permite buscar perfis de usuários no GitHub e exibe suas principais informações — como nome, foto de perfil e bio — de forma estilizada e interativa, seguindo o design criado no Figma. A aplicação utiliza a **API pública do GitHub** para obter os dados.
 
-> 🚀 Acesse a aplicação online: [https://githubprofil.vercel.app/](https://githubprofil.vercel.app/)
+> 🔗  [Projeto GitHub - Perfil Online](https://githubprofil.vercel.app/)
 
 ---
 ## 💻 Tecnologias Utilizadas
