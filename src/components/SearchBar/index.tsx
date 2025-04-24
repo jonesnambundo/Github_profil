@@ -9,7 +9,7 @@ const SearchBar = ({ userName, setUserName, handleSubmit, isLoading }) => {
       <input
         type="text"
         placeholder="Digite um usuário do Github"
-        className="w-full bg-gray-200 px-4 pr-14 h-9 sm:h-12 md:h-12 text-xs sm:text-sm md:text-base rounded-xl outline-none"
+        className="w-full bg-gray-200 px-4 pr-14 h-9 sm:h-12 md:h-12 text-xs sm:text-sm md:text-xl rounded-xl outline-none"
         value={userName}
         onChange={(e) => setUserName(e.target.value)}
       />
