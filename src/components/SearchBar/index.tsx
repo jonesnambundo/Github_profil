@@ -1,6 +1,15 @@
 import { FaSearch } from "react-icons/fa";
 
-const SearchBar = ({ userName, setUserName, handleSubmit, isLoading }) => {
+// Define a interface para os props
+interface SearchBarProps {
+  userName: string;
+  setUserName: React.Dispatch<React.SetStateAction<string>>;
+  handleSubmit: (event: React.FormEvent) => void;
+  isLoading: boolean;
+}
+
+// Aplique a interface ao componente
+const SearchBar: React.FC<SearchBarProps> = ({ userName, setUserName, handleSubmit, isLoading }) => {
   return (
     <form
       className="w-full px-4 sm:px-8 max-w-xl mb-8 relative"
